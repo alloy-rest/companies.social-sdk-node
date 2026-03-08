@@ -55,12 +55,12 @@ $ cd companies.social-sdk-node
 # With yarn
 $ yarn link
 $ cd ../my-package
-$ yarn link companies.social-sdk-node
+$ yarn link @alloy.rest/companies.social
 
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link --global companies.social-sdk-node
+$ pnpm link --global @alloy.rest/companies.social
 ```
 
 ## Running tests

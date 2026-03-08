@@ -1,4 +1,4 @@
-import { fromBase64, toBase64 } from 'companies.social-sdk-node/internal/utils/base64';
+import { fromBase64, toBase64 } from '@alloy.rest/companies.social/internal/utils/base64';
 
 describe.each(['Buffer', 'atob'])('with %s', (mode) => {
   let originalBuffer: BufferConstructor;

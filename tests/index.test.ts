@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'companies.social-sdk-node/core/api-promise';
+import { APIPromise } from '@alloy.rest/companies.social/core/api-promise';
 
 import util from 'node:util';
-import CompaniesSocial from 'companies.social-sdk-node';
-import { APIUserAbortError } from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
+import { APIUserAbortError } from '@alloy.rest/companies.social';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'companies.social-sdk-node/internal/uploads';
-import { toFile } from 'companies.social-sdk-node/core/uploads';
+import { multipartFormRequestOptions, createForm } from '@alloy.rest/companies.social/internal/uploads';
+import { toFile } from '@alloy.rest/companies.social/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

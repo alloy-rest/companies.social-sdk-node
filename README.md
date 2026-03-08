@@ -1,6 +1,6 @@
 # Companies Social TypeScript API Library
 
-[![NPM version](<https://img.shields.io/npm/v/companies.social-sdk-node.svg?label=npm%20(stable)>)](https://npmjs.org/package/companies.social-sdk-node) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/companies.social-sdk-node)
+[![NPM version](<https://img.shields.io/npm/v/@alloy.rest/companies.social.svg?label=npm%20(stable)>)](https://npmjs.org/package/@alloy.rest/companies.social) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@alloy.rest/companies.social)
 
 This library provides convenient access to the Companies Social REST API from server-side TypeScript or JavaScript.
 
@@ -11,7 +11,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install companies.social-sdk-node
+npm install @alloy.rest/companies.social
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ The full API of this library can be found in [api.md](api.md).
 
 <!-- prettier-ignore -->
 ```js
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial();
 
@@ -35,7 +35,7 @@ This library includes TypeScript definitions for all request params and response
 
 <!-- prettier-ignore -->
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial();
 
@@ -155,7 +155,7 @@ The log level can be configured in two ways:
 2. Using the `logLevel` client option (overrides the environment variable if set)
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial({
   logLevel: 'debug', // Show all log messages
@@ -183,7 +183,7 @@ When providing a custom logger, the `logLevel` option still controls which messa
 below the configured level will not be sent to your logger.
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 import pino from 'pino';
 
 const logger = pino();
@@ -252,7 +252,7 @@ globalThis.fetch = fetch;
 Or pass it to the client:
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 import fetch from 'my-fetch';
 
 const client = new CompaniesSocial({ fetch });
@@ -263,7 +263,7 @@ const client = new CompaniesSocial({ fetch });
 If you want to set custom `fetch` options without overriding the `fetch` function, you can provide a `fetchOptions` object when instantiating the client or making a request. (Request-specific options override client options.)
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial({
   fetchOptions: {
@@ -280,7 +280,7 @@ options to requests:
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/node.svg" align="top" width="18" height="21"> **Node** <sup>[[docs](https://github.com/nodejs/undici/blob/main/docs/docs/api/ProxyAgent.md#example---proxyagent-with-fetch)]</sup>
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 import * as undici from 'undici';
 
 const proxyAgent = new undici.ProxyAgent('http://localhost:8888');
@@ -294,7 +294,7 @@ const client = new CompaniesSocial({
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/bun.svg" align="top" width="18" height="21"> **Bun** <sup>[[docs](https://bun.sh/guides/http/proxy)]</sup>
 
 ```ts
-import CompaniesSocial from 'companies.social-sdk-node';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial({
   fetchOptions: {
@@ -306,7 +306,7 @@ const client = new CompaniesSocial({
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/deno.svg" align="top" width="18" height="21"> **Deno** <sup>[[docs](https://docs.deno.com/api/deno/~/Deno.createHttpClient)]</sup>
 
 ```ts
-import CompaniesSocial from 'npm:companies.social-sdk-node';
+import CompaniesSocial from 'npm:@alloy.rest/companies.social';
 
 const httpClient = Deno.createHttpClient({ proxy: { url: 'http://localhost:8888' } });
 const client = new CompaniesSocial({
