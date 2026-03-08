@@ -1,5 +1,5 @@
 {
-  "name": "companies.social",
+  "name": "companies.social-sdk-node",
   "version": "0.0.1",
   "description": "The official TypeScript library for the Companies Social API",
   "author": "Companies Social <>",

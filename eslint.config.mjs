@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^companies.social(/.*)?',
+              regex: '^companies.social-sdk-node(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],
