@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "companies.social-sdk-node/*": ["./dist/src/*"],
-      "companies.social-sdk-node": ["./dist/src/index.ts"]
+      "@alloy.rest/companies.social/*": ["./dist/src/*"],
+      "@alloy.rest/companies.social": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

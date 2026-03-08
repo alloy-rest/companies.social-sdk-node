@@ -1,4 +1,4 @@
-import { createPathTagFunction, encodeURIPath } from 'companies.social-sdk-node/internal/utils/path';
+import { createPathTagFunction, encodeURIPath } from '@alloy.rest/companies.social/internal/utils/path';
 import { inspect } from 'node:util';
 import { runInNewContext } from 'node:vm';
 

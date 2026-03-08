@@ -8,8 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "paths": {
-      "companies.social-sdk-node/*": ["./src/*"],
-      "companies.social-sdk-node": ["./src/index.ts"]
+      "@alloy.rest/companies.social/*": ["./src/*"],
+      "@alloy.rest/companies.social": ["./src/index.ts"]
     },
     "noEmit": true,
 
