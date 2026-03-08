@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import CompaniesSocial from 'companies.social';
+import CompaniesSocial from '@alloy.rest/companies.social';
 
 const client = new CompaniesSocial({
   apiKey: 'My API Key',
