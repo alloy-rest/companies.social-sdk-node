@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.0 (2026-03-11)
+
+Full Changelog: [v0.0.2...v0.1.0](https://github.com/alloy-rest/companies.social-sdk-node/compare/v0.0.2...v0.1.0)
+
+### Features
+
+* **api:** api update ([5d28f15](https://github.com/alloy-rest/companies.social-sdk-node/commit/5d28f15a61f045dd35d81fffcf44ad42007140bd))
+
+
+### Chores
+
+* **internal:** update dependencies to address dependabot vulnerabilities ([9b284c3](https://github.com/alloy-rest/companies.social-sdk-node/commit/9b284c3c17b9a0e9af4708907ffbf6131e6d489d))
+
 ## 0.0.2 (2026-03-08)
 
 Full Changelog: [v0.0.1...v0.0.2](https://github.com/alloy-rest/companies.social-sdk-node/compare/v0.0.1...v0.0.2)
